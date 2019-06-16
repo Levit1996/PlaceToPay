@@ -14,18 +14,22 @@
 - Sistema gestor de bases de datos (PostgreSQL o MySQL)    
 - PHP (http://php.net/manual/es/)
 - Git (https://git-scm.com/downloads)
-- Composer
+- Composer (https://getcomposer.org/download/)
     
 ## Instlación local 
 
 1- Clonar el repositorio: “git clone https://github.com/Levit1996/PlaceToPay.git”
+
 2- Crear base de datos en el sistema gestor elegido, si es PostgreSQL:
            -Ingresamos a postgresql con el comando “psql -U postgres” 
            -Creamos la base de datos con el comando “create database placetopay;” 
            
 3- Abrir la carpeta que contiene todo el desarrollo en el editor de texto elegido, renombrar el archivo “.env.example” por “.env”, luego, editar las credenciales de la base de datos, y guardar los cambios.
+
 4- Ejcutar: "composer install"
+
 5- Ejcutar: "php artisan key:generate"
+
 6- Ejecutar: "php artisan migrate"
 
 Nota: Tener en cuenta que ejecutar este paso en alguna de las siguientes situaciones arrojará algún error. En caso de que suceda, resolverlo y ejecutarlo de nuevo. algunos de los errores puden presentarse por:  
