@@ -41,7 +41,7 @@ También puede ser creada desde pgAdmin.
 
 6- Ejecutar: "php artisan migrate"
 
-7- Por último, es necesario realizar la ejecución del proyecto mediante el comando: "php artisan serve". 
+7- Realizar la ejecución del proyecto mediante el comando: "php artisan serve".
 
 <b>Nota:</b> Tener en cuenta que ejecutar este paso en alguna de las siguientes situaciones arrojará algún error. En caso de que suceda, estoy atento para ayudar en la solución del mismo. algunos de los errores puden presentarse por:  
 
@@ -54,6 +54,11 @@ También puede ser creada desde pgAdmin.
 - Existencia de una anterior base de datos a la cual se le haya hecho ya el proceso de migración. 
     
 </p>
+
+
+8- Por último, añadir a la dirección del servidor en el enavegador " /api/test.placetopay.com/redirection/home ", en mi caso sería: http://127.0.0.1:8000/api/test.placetopay.com/redirection/home  
+
+
 
 
 
