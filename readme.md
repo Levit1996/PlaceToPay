@@ -9,7 +9,7 @@
 
 
 ## Requerimientos para el funcionamiento del proyecto
-<p align="center">
+<p align="left">
 - Servidor web.
 - Sistema gestor de bases de datos (PostgreSQL o MySQL)    
 - PHP (http://php.net/manual/es/)
