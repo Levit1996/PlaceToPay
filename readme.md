@@ -23,7 +23,7 @@
     
 ## Instalación local 
 
-1- Clonar el repositorio: “git clone https://github.com/Levit1996/PlaceToPay.git”
+1- Clonar el repositorio: “git clone https://github.com/Levit1996/PlaceToPay.git ”
 
 2- Crear base de datos en el sistema gestor elegido, si es PostgreSQL:
    
