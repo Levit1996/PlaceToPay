@@ -10,19 +10,26 @@
 
 ## Requerimientos para el funcionamiento del proyecto
 <p align="left">
-- Servidor web.
+    
+- Servidor web
+    
 - Sistema gestor de bases de datos (PostgreSQL o MySQL)    
+
 - PHP (http://php.net/manual/es/)
+
 - Git (https://git-scm.com/downloads)
+
 - Composer (https://getcomposer.org/download/)
     
-## Instlación local 
+## Instalación local 
 
 1- Clonar el repositorio: “git clone https://github.com/Levit1996/PlaceToPay.git”
 
 2- Crear base de datos en el sistema gestor elegido, si es PostgreSQL:
-           -Ingresamos a postgresql con el comando “psql -U postgres” 
-           -Creamos la base de datos con el comando “create database placetopay;” 
+   
+   -Ingresamos a postgresql con el comando “psql -U postgres” 
+   
+   -Creamos la base de datos con el comando “create database placetopay;” 
            
 3- Abrir la carpeta que contiene todo el desarrollo en el editor de texto elegido, renombrar el archivo “.env.example” por “.env”, luego, editar las credenciales de la base de datos, y guardar los cambios.
 
@@ -32,7 +39,9 @@
 
 6- Ejecutar: "php artisan migrate"
 
-Nota: Tener en cuenta que ejecutar este paso en alguna de las siguientes situaciones arrojará algún error. En caso de que suceda, resolverlo y ejecutarlo de nuevo. algunos de los errores puden presentarse por:  
+7- Por último, es necesario realizar la ejecución del proyecto mediante el comando: "php artisan serve". 
+
+<b>Nota:</b> Tener en cuenta que ejecutar este paso en alguna de las siguientes situaciones arrojará algún error. En caso de que suceda, resolverlo y ejecutarlo de nuevo. algunos de los errores puden presentarse por:  
 
 - Servicios de postgresql detenidos o con problemas para que inicien o corran. 
 
