@@ -23,13 +23,15 @@
     
 ## Instalación local 
 
-1- Clonar el repositorio: “git clone https://github.com/Levit1996/PlaceToPay.git ”
+1- Clonar el repositorio: “git clone https://github.com/Levit1996/PlaceToPay.git ”, en caso de que se presente algún error en la clonación del proyecto, descargar el proyecto en formato ZIP y realizar descompresión del mismo.
 
 2- Crear base de datos en el sistema gestor elegido, si es PostgreSQL:
    
    -Ingresamos a postgresql con el comando “psql -U postgres” 
    
-   -Creamos la base de datos con el comando “create database placetopay;” 
+   -Creamos la base de datos con el comando “create database placetopay;”
+   
+También puede ser creada desde pgAdmin.
            
 3- Abrir la carpeta que contiene todo el desarrollo en el editor de texto elegido, renombrar el archivo “.env.example” por “.env”, luego, editar las credenciales de la base de datos, y guardar los cambios.
 
