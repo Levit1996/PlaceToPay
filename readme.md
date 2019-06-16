@@ -41,7 +41,7 @@
 
 7- Por último, es necesario realizar la ejecución del proyecto mediante el comando: "php artisan serve". 
 
-<b>Nota:</b> Tener en cuenta que ejecutar este paso en alguna de las siguientes situaciones arrojará algún error. En caso de que suceda, resolverlo y ejecutarlo de nuevo. algunos de los errores puden presentarse por:  
+<b>Nota:</b> Tener en cuenta que ejecutar este paso en alguna de las siguientes situaciones arrojará algún error. En caso de que suceda, estoy atento para ayudar en la solución del mismo. algunos de los errores puden presentarse por:  
 
 - Servicios de postgresql detenidos o con problemas para que inicien o corran. 
 
