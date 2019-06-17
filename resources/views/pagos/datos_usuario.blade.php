@@ -39,7 +39,7 @@
               <label>Número de documento <span style="font-size:20px; color:red;">*</span></label>
               <input type="number" name="documento" title="Solo ingrese números" required class="form-control">
               <label>Email <span style="font-size:20px; color:red;">*</span></label>
-              <input type="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" name="email_Address" required="" class="form-control">
+              <input type="text" pattern="[a-zñA-ZÑ0-9_]+([.][a-zñA-ZÑ0-9_]+)*@[a-zñA-ZÑñ0-9_]+([.][a-zñA-ZÑ0-9_]+)*[.][a-zñA-ZÑ]{1,5}" name="email_Address" required="" class="form-control">
               <label>Celular <span style="font-size:20px; color:red;">*</span></label>
               <input type="number" name="celular" title="Solo ingrese números" required="" class="form-control">
               <br>
