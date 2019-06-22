@@ -56,7 +56,7 @@ También puede ser creada desde pgAdmin.
 </p>
 
 
-8- Por último, añadir a la dirección del servidor en el enavegador " /api/test.placetopay.com/redirection/home ", en mi caso sería: http://127.0.0.1:8000/api/test.placetopay.com/redirection/home  
+8- Por último, añadir a la dirección del servidor en el navegador " /api/test.placetopay.com/redirection/home ", en mi caso sería: http://127.0.0.1:8000/api/test.placetopay.com/redirection/home  
 
 
 
